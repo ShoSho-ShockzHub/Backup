@@ -420,7 +420,7 @@ function Luxt1:CreateWindow(libName, logoId)
 
             local ItemHandling = {}
 
-            function ItemHandling:Button(btnText, callback)
+            function ItemHandling:CreateButton(btnText, callback)
                 local ButtonFrame = Instance.new("Frame")
                 local TextButton = Instance.new("TextButton")
                 local UICorner = Instance.new("UICorner")
