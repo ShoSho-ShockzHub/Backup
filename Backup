@@ -1,6 +1,6 @@
 local Luxt1 = {}
 
-function Luxt1.CreateWindow(libName, logoId)
+function Luxt1:CreateWindow(libName)
     local LuxtLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
     local MainFrame = Instance.new("Frame")
@@ -1260,4 +1260,4 @@ function Luxt1.CreateWindow(libName, logoId)
     return TabHandling
 end
 
-return Luxt
+return Luxt1
